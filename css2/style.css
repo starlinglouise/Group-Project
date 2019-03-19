@@ -1,5 +1,5 @@
 h1 {
-  color: #66ccff;
+  color: #66ff66;
   font-family: "Segoe Script";
   font-size: 80px;
   text-align: center;
@@ -9,18 +9,19 @@ h2 {
   color: white;
   font-family: "Segoe Script";
   font-size: 30px;
-  background-color: #005580;
+  background-color: #006600;
   text-align: center;
 }
 p {
-  color: #005580;
+  color: #006600;
   font-family: "Segoe Script";
   font-size: 20px;
   text-align: center;
 }
-ol li {
-  background-color: teal;
-}
 ul li {
-  color: yellow;
+  color: #006600;
+  font-family: "Segoe Script"
+}
+img {
+  width: 100px;
 }
