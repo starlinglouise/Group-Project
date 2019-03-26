@@ -22,6 +22,12 @@ ul li {
   color: #006600;
   font-family: "Segoe Script"
 }
-img {
-  width: 100px;
+button {
+  font-size: 10px;
+  font-family: "Segoe Script";
+  color: white;
+  width: 300px;
+  height: 50px;
+  text-align: center;
+  background-color: #006600
 }
