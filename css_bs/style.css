@@ -1,0 +1,24 @@
+h1 {
+  color: #66ff66;
+  font-family: "Segoe Script";
+  font-size: 80px;
+  text-align: center;
+  line-height: normal;
+}
+h2 {
+  color: white;
+  font-family: "Segoe Script";
+  font-size: 30px;
+  background-color: #006600;
+  text-align: center;
+}
+p {
+  color: #006600;
+  font-family: "Segoe Script";
+  font-size: 20px;
+  text-align: center;
+}
+ul li {
+  color: #006600;
+  font-family: "Segoe Script"
+}
