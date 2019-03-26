@@ -1,20 +1,52 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+}
+
+body {
+  height: 100vh;
+  background-image: url('../pictures/background-glass-plant.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+a:link {
+  color: black;
+  text-decoration:none;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+}
+
+/* mouse over link */
+a:hover {
+  color: black;
+  font-weight: bold;
+  font-size: 19px;
+}
+
+/* selected link */
+a.active {
+  color: #3f828f;
+  font-weight: bold;
+}
+
 h1 {
   color: #66ccff;
-  font-family: "Segoe Script";
   font-size: 80px;
   text-align: center;
   line-height: normal;
 }
 h2 {
   color: white;
-  font-family: "Segoe Script";
   font-size: 30px;
   background-color: #005580;
   text-align: center;
 }
 p {
   color: #005580;
-  font-family: "Segoe Script";
   font-size: 20px;
   text-align: center;
 }
