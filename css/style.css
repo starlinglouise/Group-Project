@@ -67,30 +67,64 @@ a.active {
   font-weight: bold;
 }
 
-.container {
-  margin-top: 60px;
-}
-
 h1 {
-  color: #66ccff;
-  font-size: 80px;
+  color: #3f828f;
+  font-size: 70px;
+  width: auto;
   text-align: center;
+  border-style: solid;
+  border-radius: 5px;
+  background-color: rgb(255, 255 ,255 , 0.9);
   line-height: normal;
+  margin-top: 40px;
+  margin-bottom: 30px;
 }
 h2 {
-  color: white;
+  color: #005580;
   font-size: 30px;
-  background-color: #005580;
+  background-color: rgb(255, 255 ,255 , 0.3);
   text-align: center;
+}
+h2 span{
+    background-color: rgb(255, 255 ,255 , 0.5);
 }
 p {
   color: #005580;
   font-size: 20px;
+  font-weight: bold;
   text-align: center;
 }
-ol li {
-  background-color: teal;
+p span{
+    background-color: rgb(255, 255 ,255 , 0.5);
+}
+h4{
+  color: black;
+  font-size: 20px;
+  font-weight: normal;
+  text-align: right;
+}
+
+.carousel {
+  width:640px;
+  margin:0 auto;
 }
 ul li {
-  color: yellow;
+  color: #006600;
+}
+
+.footer .fa {
+  padding: 5px;
+  margin: 10px;
+  font-size: 32px;
+  width: 45px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 20%;
+  background: rgba(255, 255, 255, 0.1);
+  color: rgba (255, 255, 255, 1);
+  border: solid;
+}
+.fa {
+  display: inline-block;
+  text-rendering: auto;
 }
