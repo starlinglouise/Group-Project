@@ -2,58 +2,92 @@
 <html>
 
 <head>
+  <link href="https://fonts.googleapis.com/css?family=Dancing+Script:700|Montserrat" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <link rel="stylesheet" href="./css2/style.css">
+  <link rel="stylesheet" href="./css_bs/style.css">
 
   <title> Let the adventures be GIN </title>
 </head>
 
 <body>
 
-  <button type="button" class="btn btn-primary btn-lg">Home</button>
-  <button type="button" class="btn btn-primary btn-lg">Find a cocktail</button>
-  <button type="button" class="btn btn-primary btn-lg">Find a Distillery</button>
-  <button type="button" class="btn btn-secondary btn-lg">Find us</button>
+  <div class="navbar">
+    <a class="active" href="#">Home</a>
+    <a href="#">Find your cocktail</a>
+    <a href="#">Find your bar</a>
+    <a href="#">Find your distillery</a>
+    <a href="#">About us</a>
+  </div>
 
   <h1>Let the adventures be GIN</h1>
-  <p>Louise and Mathilde take you on a journey discovering gin cocktails beyond the G&T</p>
+  <br>
+</br>
 
-<div id="carousel" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-  </ol>
-  <div class="carousel-inner">
-    <div class="item active">
-      <img src="gin pics/gin2.JPG" alt="First slide" align="center" " width="200px" height="200px">
+  <h2><span>Louise and Mathilde take you on a journey discovering gin cocktails beyond the G&T<span></h2>
+
+  <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+      <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+      <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+      <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="pictures/carousel/cocktailberry.JPG" alt="First">
+        <div class="carousel-caption">
+          <h3>There is more to gin than just tonic</h3>
+        </div>
+      </div>
+      <div class="item">
+        <img src="pictures/carousel/Cocktailbird.JPG" alt="Second">
+        <div class="carousel-caption">
+          <h3>We've collated a range of recipes for your enjoyment</h3>
+        </div>
+      </div>
+      <div class="item">
+        <img src="pictures/carousel/CopperCocktail.JPG" alt="Third">
+        <div class="carousel-caption">
+          <h3>Combine the ingredients and create a cocktail</h3>
+        </div>
+      </div>
+      <div class="item">
+        <img src="pictures/carousel/Pourcocktail.JPG" alt="Third">
+        <div class="carousel-caption">
+          <h3>Pour and expand your cocktail knowledge</h3>
+        </div>
+      </div>
     </div>
-    <div class="item">
-      <img src="gin pics/cocktail.JPG" alt="Second slide" width="200px" height="200px">
-    </div>
-    <div class="item">
-      <img src="gin pics/gin3.JPG" alt="Third slide"width="200px" height="200px">
-    </div>
+
+    <!-- Controls -->
+    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
   </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
 
-  <p>"When life hands you lemons, make a gin and tonic ..." Anon</p>
-  <p>"... and cocktails" Louise & Mathilde</p>
+  <p><span>"When life hands you lemons, make a gin and tonic ..." Anon<span></p>
+  <p><span>"... and cocktails" Louise & Mathilde<span></p>
 
-  <a class="btn-floating btn-lg btn-fb" type="button" role="button"><i class="fab fa-facebook-f"></i></a>
-  <a class="btn-floating btn-lg btn-tw" type="button" role="button"><i class="fab fa-twitter"></i></a>
+  <!-- Add icon library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+  <!-- Add font awesome icons -->
+<div class="footer">
+  <a href="#" class="fa fa-facebook"></a>
+  <a href="#" class="fa fa-twitter"></a>
+  <a href="#" class="fa fa-pinterest"></a>
+  <a href="#" class="fa fa-envelope"></a>
+  <h4><span>Please drink responsibly<span></h4>
 
 <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
 </body>
-</html>
