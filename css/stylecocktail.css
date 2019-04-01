@@ -67,64 +67,73 @@ a.active {
   font-weight: bold;
 }
 
-h1 {
-  color: #3f828f;
-  font-size: 70px;
-  width: auto;
+.container {
+  margin-top: 60px;
+}
+
+.cocktails_list {
+  margin-top: 135px;
+  height : 300px;
+  background-color : rgb(255, 255, 255,0.8);
+  text-align: center;
+  border-style: solid;
+  border-color: rgb(255, 255, 255,0.9);
+  border-width: 3px;
+  border-radius: 5px;
+}
+
+.cocktails_list ul {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+  padding-top: 46px;
+}
+
+.cocktails_list ul li {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+@media screen and (max-width: 991px) {
+  .cocktails_list {
+    margin-top: 30px;
+  }
+  .container {
+    margin-top: 0px;
+  }
+  .part {
+    margin-bottom: 30px;
+  }
+}
+
+#youllneed {
   text-align: center;
   border-style: solid;
   border-radius: 5px;
-  background-color: rgb(255, 255 ,255 , 0.9);
-  line-height: normal;
-  margin-top: 40px;
-  margin-bottom: 30px;
-}
-h2 {
-  color: #005580;
-  font-size: 30px;
-  background-color: rgb(255, 255 ,255 , 0.3);
-  text-align: center;
-}
-h2 span{
-    background-color: rgb(255, 255 ,255 , 0.5);
-}
-p {
-  color: #005580;
-  font-size: 20px;
-  font-weight: bold;
-  text-align: center;
-}
-p span{
-    background-color: rgb(255, 255 ,255 , 0.5);
-}
-h4{
-  color: black;
-  font-size: 20px;
-  font-weight: normal;
-  text-align: right;
+  background-color : rgb(255, 255, 255,0.8);
 }
 
-.carousel {
-  width:640px;
-  margin:0 auto;
-}
-ul li {
-  color: #006600;
+.ingredients {
+  position: relative;
+  margin-top: 21px;
+  height: 380px;
+  width: 100%;
+  background-image: url(../pictures/board.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
-.footer .fa {
-  padding: 5px;
-  margin: 10px;
-  font-size: 32px;
-  width: 45px;
+.shaker {
   text-align: center;
-  text-decoration: none;
-  border-radius: 20%;
-  background: rgba(255, 255, 255, 0.1);
-  color: rgba (255, 255, 255, 1);
-  border: solid;
 }
-.fa {
-  display: inline-block;
-  text-rendering: auto;
+
+.shaker img {
+  width: auto;
+  height: 500px;
+}
+
+.shaker-button {
+  padding-top: 20px;
+  text-align: center;
 }

@@ -1,0 +1,261 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+}
+
+body {
+  height: 100vh;
+  background-image: url('../pictures/background-glass-plant.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.navbar {
+  background-color: rgba(255,255,255,0.9);
+  height: 35px;
+}
+
+.navbar a {
+  text-align: center;
+  float: left;
+  padding: 10px 23px;
+}
+
+.navbar .icon {
+  display: none;
+}
+
+@media screen and (max-width: 830px) {
+  .navbar a:not(:first-child) {display: none;}
+  .navbar a.icon {
+    float: right;
+    display: block;
+  }
+
+  .navbar.responsive {position: relative;}
+  .navbar.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .navbar.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+a:link {
+  color: black;
+  text-decoration:none;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+}
+
+/* mouse over link */
+a:hover {
+  color: black;
+  font-weight: bold;
+}
+
+/* selected link */
+a.active {
+  color: #3f828f;
+  font-weight: bold;
+}
+
+.container {
+  margin-top: 60px;
+}
+
+.cocktails_list {
+  margin-top: 135px;
+  height : 300px;
+  background-color : rgb(255, 255, 255,0.8);
+  text-align: center;
+  border-style: solid;
+  border-color: rgb(255, 255, 255,0.9);
+  border-width: 3px;
+  border-radius: 5px;
+}
+
+.cocktails_list ul {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+  padding-top: 46px;
+}
+
+.cocktails_list ul li {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+@media screen and (max-width: 991px) {
+  .cocktails_list {
+    margin-top: 30px;
+  }
+  .container {
+    margin-top: 0px;
+  }
+  .part {
+    margin-bottom: 30px;
+  }
+}
+
+#youllneed {
+  text-align: center;
+  border-style: solid;
+  border-radius: 5px;
+  background-color : rgb(255, 255, 255,0.8);
+}
+
+.ingredients {
+  position: relative;
+  margin-top: 21px;
+  height: 380px;
+  width: 100%;
+  background-image: url(../pictures/board.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.not-active {
+  opacity: 0.4;
+}
+
+#gin {
+  position: absolute;
+  top: 53px;
+  left: 138px;
+  height: 120px;
+  width: auto;
+}
+
+#sherry {
+  position: absolute;
+  top: 199px;
+  left: 430px;
+  height: 120px;
+  width: auto;
+}
+
+#lemon {
+  position: absolute;
+  top: 70px;
+  left: 240px;
+  height: 80px;
+  width: auto;
+}
+
+#rum {
+  position: absolute;
+  top: 56px;
+  left: 378px;
+  height: 120px;
+  width: auto;
+}
+
+#orange {
+  position: absolute;
+  top: 217px;
+  left: 282px;
+  height: 90px;
+  width: auto;
+}
+
+#almond {
+  position: absolute;
+  top: 74px;
+  left: 480px;
+  height: 80px;
+  width: auto;
+}
+
+#brandy {
+  position: absolute;
+  top: 209px;
+  left: 158px;
+  height: 110px;
+  width: auto;
+}
+
+#gin-tooltip {
+  position: absolute;
+  top:47px;
+  left:102px;
+}
+
+#lemon-tooltip {
+  position: absolute;
+  top:30px;
+  left:234px;
+}
+
+#rum-tooltip {
+  position: absolute;
+  top:24px;
+  left:425px;
+}
+
+#almond-tooltip {
+  position: absolute;
+  top:34px;
+  left:494px;
+}
+
+#brandy-tooltip {
+  position: absolute;
+  top:216px;
+  left:96px;
+}
+
+#orange-tooltip {
+  position: absolute;
+  top: 322px;
+  left: 281px;
+}
+
+#sherry-tooltip {
+  position: absolute;
+  top:284px;
+  left:504px;
+}
+
+.ingredients span {
+  visibility: hidden;
+  font-family: 'Dancing Script', cursive;
+  font-size: 22px;
+}
+
+.ingredients span.visible {
+  visibility: visible;
+}
+
+.recipe-button {
+  padding-top: 20px;
+  text-align: center;
+}
+
+#myModalLabel {
+  font-family: 'Dancing Script', cursive;
+  font-size: 55px;
+}
+
+.shaker {
+  text-align: center;
+}
+
+.shaker img {
+  width: auto;
+  height: 500px;
+}
+
+.shaker-button {
+  padding-top: 20px;
+  text-align: center;
+}

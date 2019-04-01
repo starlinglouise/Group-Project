@@ -6,59 +6,49 @@
   <link href="https://fonts.googleapis.com/css?family=Dancing+Script:700|Montserrat" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="./css/style1.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/style4.css">
 </head>
 <body>
 
-  <div class="navbar" id="mynavbar">
+  <div class="navbar">
     <a href="index.html">Home</a>
-    <a href="cocktails.html" class="active">Find your cocktail</a>
+    <a href="cocktails.html">Find your cocktail</a>
     <a href="#">Find your bar</a>
     <a href="#">Find your distillery</a>
     <a href="about-us.html">About us</a>
-    <a href="#" class="icon" onclick="myFunction()">
-      <i class="fa fa-bars"></i>
-    </a>
   </div>
 
 <div class="container">
   <div class="row">
-    <div class="col-xs-12 col-md-2 part">
+    <div class="col-xs-2">
       <div class="cocktails_list">
         <ul>
-          <li><a class="active" href="cocktail1.html">Fogcutter</a></li>
+          <li><a href="cocktail1.html">Fogcutter</a></li>
           <li><a href="cocktail2.html">Earl Grey Martini</a></li>
           <li><a href="cocktail3.html">French 75</a></li>
-          <li><a href="cocktail4.html">Sloe Gin Fizz</a></li>
+          <li><a class="active" href="cocktail4.html">Sloe Gin Fizz</a></li>
           <li><a href="cocktail5.html">Southside</a></li>
         </ul>
        </div>
      </div>
-    <div class="col-xs-12 col-md-7 part">
+    <div class="col-xs-7">
       <h2 id="youllneed">You'll need</h2>
       <div class="ingredients">
-            <img src="./pictures/ingredients/gin.png" id="gin" alt="Gin">
-            <span id="gin-tooltip">Gin</span>
-            <img src="./pictures/ingredients/lemon.png" id="lemon" alt="Lemon">
+            <img src="./pictures/ingredients/egg.png" id="egg" alt="Egg white">
+            <span id="egg-tooltip">Egg white</span>
+            <img src="./pictures/ingredients/sugar.png" id="sugar" alt="Sugar syrup">
+            <span id="sugar-tooltip">Sugar syrup</span>
+            <img src="./pictures/ingredients/lemon.png" id="lemon" alt="Lemon juice">
             <span id="lemon-tooltip">Lemon juice</span>
-            <img src="./pictures/ingredients/rum.png" id="rum" alt="Rum">
-            <span id="rum-tooltip">Rum</span>
-            <img src="./pictures/ingredients/almond.png" id="almond" alt="Almond">
-            <span id="almond-tooltip">Almond syrup</span>
-            <img src="./pictures/ingredients/brandy.png" id="brandy" alt="Brandy">
-            <span id="brandy-tooltip">Brandy</span>
-            <img src="./pictures/ingredients/orange.png" id="orange" alt="Orange">
-            <span id="orange-tooltip">Orange juice</span>
-            <img src="./pictures/ingredients/sherry.png" id="sherry" alt="Sherry">
-            <span id="sherry-tooltip">Sherry</span>
+            <img src="./pictures/ingredients/sloegin.png" id="sloegin" alt="Sloe Gin">
+            <span id="sloegin-tooltip">Sloe Gin</span>
       </div>
       <div  class="recipe-button">
         <button type="button" class="btn btn-default" data-toggle="modal" data-target=".bs-example-modal-lg">Show me the recipe
         </button>
       </div>
     </div>
-    <div class="col-xs-12 col-md-3 part">
+    <div class="col-xs-3">
       <div class= "shaker">
         <img src="./pictures/shaker.png" alt="Shaker">
         <div class="shaker-button">
@@ -74,20 +64,17 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h2 class="modal-title" id="myModalLabel">Fogcutter</h2>
+        <h2 class="modal-title" id="myModalLabel">Sloe Gin Fizz</h2>
       </div>
       <div class="modal-body">
         <h2>You'll need :</h2>
           <ul>
-            <li>20ml Gin</li>
-            <li>20ml Brandy</li>
-            <li>20ml Rum</li>
-            <li>40ml orange juice</li>
+            <li>50ml Sloe Gin</li>
             <li>20ml lemon juice</li>
-            <li>15ml almond syrup</li>
-            <li>5ml Sherry</li>
+            <li>15ml sugar syrup</li>
+            <li>1 egg white</li>
           </ul>
-          <p>Combine the gin, brandy, rum, freshly-squeezed orange and lemon juice then add the almond syrup to really funk things up. Shake well and add the touch of sherry to top. Garnish with anything fun you can lay your hands on and serve tall over ice.</p>
+          <p>Shake together the sloe gin, lemon, sugar syrup, a rosemary sprig and the fresh egg white with ice. Then, shake without the ice to ensure maximum frothage. Serve straight up in a wine glass with a slapped rosemary sprig aloft.</p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>

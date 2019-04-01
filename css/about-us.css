@@ -1,0 +1,90 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+}
+
+body {
+  height: 100vh;
+  background-image: url('../pictures/background-glass-plant.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+a:link {
+  color: black;
+  text-decoration:none;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+}
+
+/* mouse over link */
+a:hover {
+  color: black;
+  font-weight: bold;
+  font-size: 19px;
+}
+
+/* selected link */
+a.active {
+  color: #3f828f;
+  font-weight: bold;
+}
+
+h1 {
+  color: #66ccff;
+  font-size: 80px;
+  text-align: center;
+  line-height: normal;
+}
+
+#us {
+  margin-top: 10px;
+}
+
+.face {
+  height: 130px;
+  width: auto;
+  border-style: solid;
+  border-width: thin;
+  border-radius: 3px;
+  background-color: white;
+}
+
+.face-pic {
+    text-align: center;
+  }
+
+.description {
+  margin-top: 30px;
+  height: 150px;
+  background-color : rgb(255, 255, 255,0.8);
+  border-style: solid;
+  border-width: thin;
+  border-radius: 3px;
+  border-color: white
+}
+
+form {
+  text-align: center;
+}
+
+.form-group {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.form-control{
+  margin: 0 auto;
+  width: 700px;
+}
+
+#message {
+  height: 90px;
+}
+
+.form-button {
+  margin-top: 15px;
+}
