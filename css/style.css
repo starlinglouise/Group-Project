@@ -42,7 +42,7 @@ h1 {
 h2 {
   color: white;
   font-size: 30px;
-  background-color: #006600;
+  background-color: #005580;
   text-align: center;
 }
 p {
@@ -50,7 +50,9 @@ p {
   font-size: 20px;
   text-align: center;
 }
+ol li {
+  background-color: teal;
+}
 ul li {
-  color: #006600;
-  font-family: "Segoe Script"
+  color: yellow;
 }

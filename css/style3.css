@@ -1,0 +1,183 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+}
+
+body {
+  height: 100vh;
+  background-image: url('../pictures/background-glass-plant.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+a:link {
+  color: black;
+  text-decoration:none;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+}
+
+/* mouse over link */
+a:hover {
+  color: black;
+  font-weight: bold;
+  font-size: 19px;
+}
+
+/* selected link */
+a.active {
+  color: #3f828f;
+  font-weight: bold;
+}
+
+.cocktails_list {
+  margin-top: 135px;
+  height : 300px;
+  background-color : rgb(255, 255, 255,0.8);
+  text-align: center;
+  border-style: solid;
+  border-color: rgb(255, 255, 255,0.9);
+  border-width: 3px;
+  border-radius: 5px;
+}
+
+.cocktails_list ul {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+  padding-top: 46px;
+}
+
+.cocktails_list ul li {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+#youllneed {
+  text-align: center;
+  border-style: solid;
+  border-radius: 5px;
+  background-color : rgb(255, 255, 255,0.8);
+}
+
+.ingredients {
+  position: relative;
+  margin-top: 21px;
+  height: 380px;
+  width: 100%;
+  background-image: url(../pictures/board.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.not-active {
+  opacity: 0.4;
+}
+
+#gin {
+  position: absolute;
+  top: 199px;
+  left: 430px;
+  height: 120px;
+  width: auto;
+}
+
+#sugar {
+  position: absolute;
+  top: 61px;
+  left: 179px;
+  height: 136px;
+  width: auto;
+}
+
+#liqueur {
+  position: absolute;
+  top: 56px;
+  left: 378px;
+  height: 120px;
+  width: auto;
+}
+
+#lemon {
+  position: absolute;
+  top: 224px;
+  left: 282px;
+  height: 81px;
+  width: auto;
+}
+
+#bubbly {
+  position: absolute;
+  top: 202px;
+  left: 158px;
+  height: 118px;
+  width: auto;
+}
+
+#sugar-tooltip {
+  position: absolute;
+  top:52px;
+  left:140px;
+}
+
+#liqueur-tooltip {
+  position: absolute;
+  top:24px;
+  left:425px;
+}
+
+#bubbly-tooltip {
+  position: absolute;
+  top:216px;
+  left:96px;
+}
+
+#lemon-tooltip {
+  position: absolute;
+  top: 322px;
+  left: 281px;
+}
+
+#gin-tooltip {
+  position: absolute;
+  top: 263px;
+  left: 497px;
+}
+
+.ingredients span {
+  visibility: hidden;
+  font-family: 'Dancing Script', cursive;
+  font-size: 22px;
+}
+
+.ingredients span.visible {
+  visibility: visible;
+}
+
+.recipe-button {
+  padding-top: 20px;
+  text-align: center;
+}
+
+#myModalLabel {
+  font-family: 'Dancing Script', cursive;
+  font-size: 55px;
+}
+
+.shaker {
+  text-align: center;
+}
+
+.shaker img {
+  width: auto;
+  height: 500px;
+}
+
+.shaker-button {
+  padding-top: 20px;
+  text-align: center;
+}

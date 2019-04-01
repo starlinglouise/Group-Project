@@ -39,18 +39,52 @@ h1 {
   text-align: center;
   line-height: normal;
 }
-h2 {
-  color: white;
-  font-size: 30px;
-  background-color: #006600;
+
+#us {
+  margin-top: 10px;
+}
+
+.face {
+  height: 130px;
+  width: auto;
+  border-style: solid;
+  border-width: thin;
+  border-radius: 3px;
+  background-color: white;
+}
+
+.face-pic {
+    text-align: center;
+  }
+
+.description {
+  margin-top: 30px;
+  height: 150px;
+  background-color : rgb(255, 255, 255,0.8);
+  border-style: solid;
+  border-width: thin;
+  border-radius: 3px;
+  border-color: white
+}
+
+form {
   text-align: center;
 }
-p {
-  color: #005580;
-  font-size: 20px;
+
+.form-group {
+  margin-top: 15px;
   text-align: center;
 }
-ul li {
-  color: #006600;
-  font-family: "Segoe Script"
+
+.form-control{
+  margin: 0 auto;
+  width: 700px;
+}
+
+#message {
+  height: 60px;
+}
+
+.form-button {
+  margin-top: 6px;
 }

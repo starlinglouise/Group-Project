@@ -2,40 +2,54 @@
 <html>
 <head>
   <title>Find your cocktail</title>
+  <link href="https://fonts.googleapis.com/css?family=Dancing+Script:700|Montserrat" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./css/stylecocktail.css">
 </head>
 <body>
 
   <div class="navbar">
-    <a href="#">Home</a>
-    <a href="#">Find your cocktail</a>
+    <a href="index.html">Home</a>
+    <a href="cocktails.html">Find your cocktail</a>
     <a href="#">Find your bar</a>
     <a href="#">Find your distillery</a>
-    <a href="#">About us</a>
+    <a href="about-us.html">About us</a>
   </div>
 
-  <div class="container">
-    <div class="row">
-      <div class="col-xs-4">
-        <div class="cocktails_list">
-          <ul>
-            <li><a href="cocktail1.html">Cocktail 1</a></li>
-            <li>Cocktail 2</li>
-            <li>Cocktail 3</li>
-            <li>Cocktail 4</li>
-            <li>Cocktail 5</li>
-            <li>Cocktail 6</li>
-          </ul>
+<div class="container">
+  <div class="row">
+    <div class="col-xs-2">
+      <div class="cocktails_list">
+        <ul>
+          <li><a href="cocktail1.html">Fogcutter</a></li>
+          <li><a href="cocktail2.html">Earl Grey Martini</a></li>
+          <li><a href="cocktail3.html">French 75</a></li>
+          <li><a href="cocktail4.html">Sloe Gin Fizz</a></li>
+          <li><a href="cocktail5.html">Southside</a></li>
+        </ul>
+       </div>
+     </div>
+    <div class="col-xs-7">
+      <h2 id="youllneed">You'll need</h2>
+      <div class="ingredients">
+      </div>
+    </div>
+    <div class="col-xs-3">
+      <div class= "shaker">
+        <img src="./pictures/shaker.png" alt="Shaker">
+        <div class="shaker-button">
+          <button type="button" class="btn btn-default">Shake</button>
         </div>
-      </div>
-      <div class="col-xs-4">
-      </div>
-      <div class="col-xs-4">
-        <h1>shaker</h1>
       </div>
     </div>
   </div>
+</div>
+
+<script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script type="text/javascript" src="./application.js"></script>
 
 </body>
 </html>
