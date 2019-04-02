@@ -10,6 +10,40 @@ body {
   background-position: center;
 }
 
+.navbar {
+  background-color: rgba(255,255,255,0.9);
+}
+
+.navbar a {
+  text-align: center;
+  float: left;
+  padding: 10px 23px;
+}
+
+.navbar .icon {
+  display: none;
+}
+
+@media screen and (max-width: 830px) {
+  .navbar a:not(:first-child) {display: none;}
+  .navbar a.icon {
+    float: right;
+    display: block;
+  }
+
+  .navbar.responsive {position: relative;}
+  .navbar.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .navbar.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
 a:link {
   color: black;
   text-decoration:none;
@@ -24,13 +58,16 @@ a:visited {
 a:hover {
   color: black;
   font-weight: bold;
-  font-size: 19px;
 }
 
 /* selected link */
 a.active {
   color: #3f828f;
   font-weight: bold;
+}
+
+.container {
+  margin-top: 40px;
 }
 
 .cocktails_list {
@@ -55,6 +92,19 @@ a.active {
   padding-top: 8px;
   padding-bottom: 8px;
 }
+
+@media screen and (max-width: 991px) {
+  .cocktails_list {
+    margin-top: 30px;
+  }
+  .container {
+    margin-top: 0px;
+  }
+  .part {
+    margin-bottom: 30px;
+  }
+}
+
 
 #youllneed {
   text-align: center;
